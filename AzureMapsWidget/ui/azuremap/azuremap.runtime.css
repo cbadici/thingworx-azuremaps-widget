@@ -1,0 +1,7 @@
+/* Place custom CSS styling for AzureMap widget at runtime in this file */
+
+.widget-azuremap {
+	width:100%;
+	height:100%;
+	position:relative;
+}

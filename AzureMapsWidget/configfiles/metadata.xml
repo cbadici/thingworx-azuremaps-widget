@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <Widgets>
+        <Widget name="azuremap">
+            <UIResources>
+                <FileResource description="Prototype Azure Maps widget implementation" file="azuremap.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
+                <FileResource description="Prototype Azure Maps widget implementation" file="azuremap.ide.css" isDevelopment="true" isRuntime="false" type="CSS"/>
+                <FileResource description="Prototype Azure Maps widget implementation" file="azuremap.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="Prototype Azure Maps widget implementation" file="azuremap.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+                <FileResource description="AzureMaps CSS min" file="atlas.min.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+                <FileResource description="AzureMaps CSS min" file="atlas.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="AzureMaps CSS min" file="atlas-service.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
+            </UIResources>
+        </Widget>
+    </Widgets>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" minimumThingWorxVersion="8.5.0" name="AzureMapsWidget" packageVersion="1.0.16" vendor="Vladimir Rosu - Open Source"/>
+    </ExtensionPackages>
+</Entities>
