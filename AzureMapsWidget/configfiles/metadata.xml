@@ -14,6 +14,6 @@
         </Widget>
     </Widgets>
     <ExtensionPackages>
-        <ExtensionPackage dependsOn="" minimumThingWorxVersion="8.5.0" name="AzureMapsWidget" packageVersion="1.0.16" vendor="Vladimir Rosu - Open Source"/>
+        <ExtensionPackage dependsOn="" minimumThingWorxVersion="8.5.0" name="AzureMapsWidget" packageVersion="1.0.95" vendor="Vladimir Rosu - Open Source" description="Prototype Azure Maps widget"/>
     </ExtensionPackages>
 </Entities>

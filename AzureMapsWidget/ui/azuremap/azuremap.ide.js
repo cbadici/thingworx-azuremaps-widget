@@ -15,6 +15,11 @@ TW.IDE.Widgets.azuremap = function () {
 					'baseType': 'INFOTABLE',
 					'isBindingTarget': true
 				},
+				'SubscriptionKey': {
+					'baseType': 'STRING',
+			
+					'defaultValue':''
+				},
 				'LocationField': {
                     'description' : 'Field which will provide location information for markers/tracks',
                     'isBindingTarget': true,
@@ -25,9 +30,21 @@ TW.IDE.Widgets.azuremap = function () {
                     'baseTypeRestriction': 'LOCATION',
                     'baseType': 'FIELDNAME'
                 },
+				'AutoZoom':
+				{
+					'baseType': 'BOOLEAN',
+					
+					'defaultValue':true
+				}
 			}
 		}
 	};
+	
+	 this.widgetServices = function () {
+        return {
+			//'Resize': { 'warnIfNotBound': false }
+        };
+    };
 
 	this.afterSetProperty = function (name, value) {
 		var thisWidget = this;
